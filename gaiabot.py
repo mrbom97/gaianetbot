@@ -22,7 +22,7 @@ RETRY_DELAY = 5  # Seconds between retries
 QUESTION_DELAY = 1  # Seconds between successful questions
 
 QUESTIONS = [
-    "How will AI shape the future of mental health?",
+"How will AI shape the future of mental health?",
 "How can AI be made more reliable for disaster response?",
 "How is AI transforming customer experience?",
 "How is AI transforming sports analytics?",
@@ -1022,7 +1022,7 @@ QUESTIONS = [
 "How does AI interact with other technologies in customer service?",
 "What risks should we consider when using AI in financial fraud detection?",
 "How can AI be used to solve problems in disaster response?",
-    "How to manage tasks in no-code apps?"
+"How to manage tasks in no-code apps?"
 ]
 
 def chat_with_ai(api_key: str, question: str) -> str:
