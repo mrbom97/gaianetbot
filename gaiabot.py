@@ -15,7 +15,7 @@ logging.basicConfig(
 )
 
 # Configuration
-BASE_URL = "https://hyper.gaia.domains"
+BASE_URL = "https://base.gaia.domains"
 MODEL = "qwen2-0.5b-instruct"
 MAX_RETRIES = 100  # Essentially infinite retries
 RETRY_DELAY = 5  # Seconds between retries
@@ -2493,7 +2493,7 @@ def run_bot(api_key: str):
 
 def main():
     print("Title: GaiaAI Chatbot")
-    print("hyper.gaia.domains")
+    print("base.gaia.domains")
     api_key = input("Enter your API key: ")
     run_bot(api_key)
 
